@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "install": "cd project && npm ci",
+    "build": "cd project && npm run build",
+    "dev": "cd project && npm run dev",
+    "preview": "cd project && npm run preview"
+  }
+}
