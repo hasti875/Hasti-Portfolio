@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "install": "cd Hasti-main/project && npm ci",
+    "build": "cd Hasti-main/project && npm run build",
+    "dev": "cd Hasti-main/project && npm run dev",
+    "preview": "cd Hasti-main/project && npm run preview"
+  }
+}
