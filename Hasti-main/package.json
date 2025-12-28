@@ -1,9 +1,13 @@
 {
-  "private": true,
+  "dependencies": { ... },
+  "devDependencies": {
+    "vite": "...",
+    "react": "...",
+    "whatever": "..."
+  },
   "scripts": {
-    "install": "cd project && npm ci",
-    "build": "cd project && npm run build",
-    "dev": "cd project && npm run dev",
-    "preview": "cd project && npm run preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
